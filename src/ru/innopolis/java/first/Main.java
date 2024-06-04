@@ -1,5 +1,6 @@
 package ru.innopolis.java.first;
 
+import java.util.Optional;
 import java.util.Scanner;
 
 public class Main {
