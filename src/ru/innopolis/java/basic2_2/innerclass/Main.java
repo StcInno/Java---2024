@@ -5,7 +5,13 @@ public class Main {
         MyOuterClass myOuterClass = new MyOuterClass();
         myOuterClass.printOuter();
 
+        myOuterClass.getClass();
+
         MyOuterClass.InnerClass innerClass = new MyOuterClass.InnerClass();
         innerClass.printInner();
+
+        MyOuterClass.InnerClass.InnerInnerClass innerInnerClass = new MyOuterClass.InnerClass.InnerInnerClass();
+//        MyOuterClass.InnerClass i = new MyOuterClass().new InnerClass();
+//        i.printInner();
     }
 }
